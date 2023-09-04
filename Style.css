@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;300;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+   
+display: flex;
+flex-direction: column;
+font-family: catamaran;
+font-weight: 2500;
+justify-content: center;
+align-items: center;
+border: 2px solid black;
+border-radius: 8 px;
+margin: 200px 450px;
+padding: 0.5rem 1.5rem 2rem 1.5rem;
+box-shadow: 0px 0px 10px 5px ;
+ 
+}
+h2{
+    font-size: 35px;
+}
+body{
+    background-image: url(thumb-350-1311991.jpeg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   
+} 
+.Email{
+   padding: 10px;
+    font-size: 20px;
+    
+    
+}
+.Password{
+    font-size: 19px;
+}
+.container input{
+    padding: 10px 50px  10px 5px;
+    margin: 0px;
+    
+}
+
+.btn{
+    padding: 4px 18px;
+    border-radius: 4px;
+    box-shadow: 1px 2px 2px 0px;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: rgb(188, 181, 181);
+}
+a{
+    color: rgb(2, 2, 2);
+}
+input[type="text"]:focus{
+    /* color: black; */
+    background-color: rgb(133, 126, 126);
+    border: 2px solid black;
+}
+input[type="password"]:focus{
+    /* color: black; */
+    background-color: rgb(133, 126, 126);
+    border: 2px solid black;
+}
+.box{
+    padding:6px 36px 16px 18px ;
+    font-size: large;
+    font-weight: 500;
+}
